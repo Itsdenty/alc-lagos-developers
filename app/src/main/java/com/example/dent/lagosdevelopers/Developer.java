@@ -28,7 +28,7 @@ public class Developer implements Serializable {
             return html_url;
         }
 
-    // Returns a Book given the expected JSON
+    // Returns a Developer given the expected JSON
     public static Developer fromJson(JSONObject jsonObject) {
         Developer developer = new Developer();
         try {
